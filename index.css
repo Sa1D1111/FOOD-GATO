@@ -18,6 +18,7 @@ body    {
     transform: translateY(-1.7vw);
 }
 
+
 #header {
     position: relative;
 }
@@ -281,11 +282,21 @@ body    {
     opacity: 0;
     pointer-events: none;
 }
+#wordie
+{
+    position: absolute;
+    width: 5em;
+    overflow: hidden;
+    top: 2;
+    font-size: 5vw;
+   
+
+}
 
 #Zoro:hover > #zoritoTitle {
     opacity: 1;
     transition: 2s;
-    background: rgb(182, 159, 97);
+    background: linear-gradient(180deg, rgb(211, 2, 2), rgb(9, 247, 68));
 }
 
 @keyframes intro {
@@ -319,5 +330,5 @@ body    {
 
 @font-face {
     font-family: "Architects_Daughter";
-    src: url(resources/architectsDaughter.ttf);
+    src: url(images/architectsDaughter.ttf);
 }
