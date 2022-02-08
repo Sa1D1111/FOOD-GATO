@@ -21,7 +21,7 @@
         
         <div id = "middle">
             <div id = "header">
-                <h1 id = "title">Zoros Favorite Scrumbtious Snackies</h1>
+                <h1 id = "title">Zoros Scrumbtious Snackies</h1>
                 <img id = "underline" src = images/underline2.png>            
             </div>
             <div id = "gifContainer">
@@ -59,7 +59,7 @@
         </div>
 
         <div id = "Zoro">
-            <h1 id = "zoritoTitle">Zoro Recipes</h1>
+            <h1 id = "zoritoTitle">Zoros nightly shmacks</h1>
             <a id = "thing" href = "https://www.youtube.com/watch?v=ndsaoMFz9J4" target = "_blank">
                 <img id = "zorito" src = "images/gatos.jpg">
                 <audio id = "GATO_PARTY"   ><source  src = "images/Or3o - Meow.mp3" ></source></audio >
@@ -80,12 +80,13 @@
             saigyouji.addEventListener('mouseover', function() {
             [].forEach.call(audios, function(audio) {
             music.play();
+            music.currentTime = 02;
             });
             }, false);
 
             saigyouji.addEventListener('mouseleave', function() {
             music.pause();
-            music.currentTime = 0;
+            music.currentTime = 02;
             }, false);
 
             function myFunction() {

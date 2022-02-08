@@ -27,7 +27,7 @@ body    {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-bottom: -5px;
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
     color:rgb(236, 218, 139);
     bottom: 2vw;
@@ -86,7 +86,7 @@ body    {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    bottom: 2%;
+    bottom: 0%;
     right: 50%;
     transform: translate(50%);
     width: 60%;
